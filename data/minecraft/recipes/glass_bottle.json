@@ -1,0 +1,33 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern": 
+  [
+    "PQP",
+    "#C#",
+    " # "
+  ],
+  "key": 
+  {
+    "#": 
+    {
+      "tag":"minecraft:glass_panes"
+    },
+    "P":
+    {
+      "item":"minecraft:paper"
+    },
+    "Q":
+    {
+      "item":"minecraft:quartz"
+    },
+    "C":
+    {
+      "item":"minecraft:charcoal"
+    }
+  },
+  "result":
+  {
+    "item": "minecraft:glass_bottle",
+    "count": 1
+  }
+}

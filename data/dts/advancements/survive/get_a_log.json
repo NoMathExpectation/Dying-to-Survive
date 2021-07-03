@@ -1,0 +1,34 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:oak_log"
+        },
+        "title":"为什么不去撸树呢？",
+        "description":"试试你的手劲有多大"
+    },
+    "criteria": 
+    {
+        "dts:get_a_log":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "tag":"minecraft:logs"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:get_a_log"
+        ]
+    ],
+    "parent":"dts:survive/main"
+}

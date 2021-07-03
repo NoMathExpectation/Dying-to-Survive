@@ -1,0 +1,34 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:quartz"
+        },
+        "title":"地狱的产物",
+        "description":"...就藏在沙子里"
+    },
+    "criteria": 
+    {
+        "dts:get_quartz":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "item":"minecraft:quartz"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:get_quartz"
+        ]
+    ],
+    "parent":"dts:survive/craft_furnace"
+}

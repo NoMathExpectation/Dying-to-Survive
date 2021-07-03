@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": 
+  [
+    "XXX",
+    "XGX"
+  ],
+  "key": 
+  {
+    "X": 
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    "G":
+    {
+      "item": "minecraft:diamond_helmet"
+    }
+  },
+  "result": 
+  {
+    "item": "minecraft:netherite_helmet"
+  }
+}

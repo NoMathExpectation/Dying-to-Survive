@@ -1,0 +1,42 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:wooden_axe"
+        },
+        "title":"斧头帮",
+        "description":"用斧头击杀生物",
+        "frame":"goal"
+    },
+    "criteria": 
+    {
+        "dts:kill_with_axe":
+        {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+            {
+                "killing_blow": 
+                {
+                    "source_entity": 
+                    {
+                        "equipment":
+                        {
+                            "mainhand":
+                            {
+                                "tag":"minecraft:axes"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:kill_with_axe"
+        ]
+    ],
+    "parent":"dts:survive/get_crafting_table"
+}

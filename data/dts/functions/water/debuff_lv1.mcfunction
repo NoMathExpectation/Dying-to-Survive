@@ -1,0 +1,1 @@
+effect give @s weakness 30 2 true

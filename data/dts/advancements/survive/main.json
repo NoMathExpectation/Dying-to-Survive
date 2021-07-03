@@ -1,0 +1,29 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:coarse_dirt"
+        },
+        "description":"好好享受吧",
+        "background":"minecraft:textures/block/stone.png",
+        "title":
+        {
+            "text": "更难的生存",
+            "color": "dark_red"
+        }
+    },
+    "criteria": 
+    {
+        "dts:main":
+        {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:main"
+        ]
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": 
+  [
+    "XX",
+    "S#",
+    " #"
+  ],
+  "key": 
+  {
+    "#": 
+    {
+      "item": "minecraft:stick"
+    },
+    "X": 
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "S":
+    {
+      "item": "minecraft:string"
+    }
+  },
+  "result": 
+  {
+    "item": "minecraft:iron_hoe"
+  }
+}

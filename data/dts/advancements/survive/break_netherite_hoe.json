@@ -1,0 +1,38 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:netherite_hoe"
+        },
+        "title":"终极奉献pro",
+        "description":"用坏一把下界合金锄，然后停止思考。",
+        "frame": "challenge"
+    },
+    "criteria": 
+    {
+        "dts:break_netherite_hoe":
+        {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": 
+            {
+                "item": 
+                {
+                    "item": "minecraft:netherite_hoe"
+                },
+                "durability":0
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:break_netherite_hoe"
+        ]
+    ],
+    "rewards": 
+    {
+        "experience": 1000
+    },
+    "parent":"dts:survive/get_blast_furnace"
+}

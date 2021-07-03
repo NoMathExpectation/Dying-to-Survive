@@ -1,0 +1,44 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:oak_leaves"
+        },
+        "title":"绿色植物",
+        "description":"让地下充满氧气吧！",
+        "frame": "goal"
+    },
+    "criteria": 
+    {
+        "dts:green_leaves":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "item": 
+                {
+                    "tag":"minecraft:leaves"
+                },
+                "location": 
+                {
+                    "position": 
+                    {
+                        "y":
+                        {
+                            "min": 0,
+                            "max": 50
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:green_leaves"
+        ]
+    ],
+    "parent":"dts:survive/get_iron_ingot"
+}

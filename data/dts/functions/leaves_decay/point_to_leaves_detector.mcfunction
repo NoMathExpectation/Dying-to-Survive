@@ -1,0 +1,3 @@
+execute if block ~ ~ ~ #minecraft:leaves align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,Silent:1b,Small:1b,Tags:[dts_leaves]}
+execute if block ~ ~ ~ #minecraft:wart_blocks align xyz positioned ~0.5 ~ ~0.5 run summon armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,Marker:1b,NoGravity:1b,Silent:1b,Small:1b,Tags:[dts_leaves]}
+execute unless block ~ ~ ~ #minecraft:leaves positioned ^ ^ ^0.001 run function dts:leaves_decay/point_to_leaves_detector

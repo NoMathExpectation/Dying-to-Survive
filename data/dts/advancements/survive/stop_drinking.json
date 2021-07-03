@@ -1,0 +1,34 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:'minecraft:fire_resistance'}"
+        },
+        "title":"解暑神器",
+        "description":"下界变天堂~",
+        "frame": "challenge"
+    },
+    "criteria": 
+    {
+        "dts:stop_drinking":
+        {
+            "trigger": "minecraft:effects_changed",
+            "conditions": 
+            {
+                "effects": 
+                {
+                    "minecraft:fire_resistance":{}
+                }
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:stop_drinking"
+        ]
+    ],
+    "parent":"dts:survive/drink_water"
+}

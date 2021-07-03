@@ -1,0 +1,35 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        "title":"省吃俭用",
+        "description":"9个铁粒的汗水",
+        "frame": "goal"
+    },
+    "criteria": 
+    {
+        "dts:get_iron_ingot":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "item":"minecraft:iron_ingot"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:get_iron_ingot"
+        ]
+    ],
+    "parent":"dts:survive/get_iron_nugget"
+}

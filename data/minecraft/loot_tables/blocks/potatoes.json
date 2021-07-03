@@ -1,0 +1,137 @@
+{
+    "type": "minecraft:block",
+    "pools": 
+    [
+        {
+            "rolls": 1,
+            "conditions": 
+            [
+                {
+                    "condition": "minecraft:block_state_property",
+                    "block": "minecraft:potatoes",
+                    "properties": 
+                    {
+                        "age": "7"
+                    }
+                },
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": 
+            [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potato"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "conditions": 
+            [
+                {
+                    "condition": "minecraft:block_state_property",
+                    "block": "minecraft:potatoes",
+                    "properties": 
+                    {
+                        "age": "7"
+                    }
+                }
+            ],
+            "entries": 
+            [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:potato",
+                    "functions": 
+                    [
+                        {
+                            "function": "minecraft:apply_bonus",
+                            "formula": "minecraft:ore_drops",
+                            "enchantment": "minecraft:fortune"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "conditions": 
+            [
+                {
+                    "condition": "minecraft:alternative",
+                    "terms": 
+                    [
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "minecraft:potatoes",
+                            "properties": 
+                            {
+                                "age": "0"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "minecraft:potatoes",
+                            "properties": 
+                            {
+                                "age": "1"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "minecraft:potatoes",
+                            "properties": 
+                            {
+                                "age": "2"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "minecraft:potatoes",
+                            "properties": 
+                            {
+                                "age": "3"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "minecraft:potatoes",
+                            "properties": 
+                            {
+                                "age": "4"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "minecraft:potatoes",
+                            "properties": 
+                            {
+                                "age": "5"
+                            }
+                        },
+                        {
+                            "condition": "minecraft:block_state_property",
+                            "block": "minecraft:potatoes",
+                            "properties": 
+                            {
+                                "age": "6"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "minecraft:survives_explosion"
+                }
+            ],
+            "entries": 
+            [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:poisonous_potato"
+                }
+            ]
+        }
+    ]
+}

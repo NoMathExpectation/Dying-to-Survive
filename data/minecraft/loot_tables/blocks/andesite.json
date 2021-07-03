@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:block",
+  "pools": 
+  [
+    {
+      "rolls": 1,
+      "entries": 
+      [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:andesite",
+          "functions": 
+          [
+            {
+              "function": "minecraft:set_nbt",
+              "conditions":
+              [
+                {
+                  "condition":"minecraft:table_bonus",
+                  "enchantment":"minecraft:fortune",
+                  "chances": 
+                  [
+                    0.05,
+                    0.025,
+                    0.01,
+                    0
+                  ]
+                }
+              ],
+              "tag": "{dtsSilverFish:1b}"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "conditions":
+              [
+                {
+                  "condition":"minecraft:table_bonus",
+                  "enchantment":"minecraft:fortune",
+                  "chances": 
+                  [
+                    0.01,
+                    0.0025,
+                    0.001,
+                    0
+                  ]
+                }
+              ],
+              "tag": "{dtsExplode:1b}"
+            }
+          ]
+        }
+      ],
+      "conditions": 
+      [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

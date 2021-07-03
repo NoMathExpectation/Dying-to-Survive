@@ -1,0 +1,34 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:'minecraft:water'}"
+        },
+        "title":"大自然的搬运工",
+        "description":"用瓶子装一瓶水喝",
+        "frame": "goal"
+    },
+    "criteria": 
+    {
+        "dts:drink_water":
+        {
+            "trigger": "minecraft:consume_item",
+            "conditions": 
+            {
+                "item": 
+                {
+                    "item": "minecraft:potion"
+                }
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:drink_water"
+        ]
+    ],
+    "parent":"dts:survive/get_quartz"
+}

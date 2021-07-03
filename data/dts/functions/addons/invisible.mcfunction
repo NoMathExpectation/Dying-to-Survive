@@ -1,0 +1,2 @@
+execute if score enable_invisible dtsConfig_addons matches 1 run effect give @e[type=!player] invisibility 1 1 false
+execute if score enable_invisible dtsConfig_addons matches 2 run effect give @e[type=!player] invisibility 1 1 true

@@ -1,0 +1,55 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:diamond_pickaxe"
+        },
+        "title":
+        {
+            "text": "镐击！",
+            "color": "light_purple"
+        },
+        "description":
+        [
+            "用镐子击杀生物",
+            "\n\n",
+            "不要想歪了"
+        ],
+        "frame": "challenge"
+    },
+    "criteria": 
+    {
+        "dts:kill_with_pickaxe":
+        {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": 
+            {
+                "killing_blow": 
+                {
+                    "source_entity": 
+                    {
+                        "equipment":
+                        {
+                            "mainhand":
+                            {
+                                "tag":"minecraft:pickaxes"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:kill_with_pickaxe"
+        ]
+    ],
+    "rewards": 
+    {
+        "experience": 100
+    },
+    "parent":"dts:survive/kill_with_axe"
+}

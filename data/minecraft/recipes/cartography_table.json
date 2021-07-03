@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": 
+  [
+    "R@G",
+    "###",
+    "#C#"
+  ],
+  "key": 
+  {
+    "#": 
+    {
+      "tag": "minecraft:planks"
+    },
+    "@": 
+    {
+      "tag": "minecraft:maps"
+    },
+    "R":
+    {
+      "item": "minecraft:redstone"
+    },
+    "G":
+    {
+      "tag": "minecraft:glass_panes"
+    },
+    "C":
+    {
+      "item": "minecraft:compass"
+    }
+  },
+  "result": 
+  {
+    "item": "minecraft:cartography_table"
+  }
+}

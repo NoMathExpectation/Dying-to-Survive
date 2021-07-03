@@ -1,0 +1,50 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:furnace"
+        },
+        "title":
+        [
+            "",
+            {
+                "text": "热",
+                "color": "red"
+            },
+            "门话题"
+        ],
+        "description":
+        [
+            "好",
+            {
+                "text": "冷",
+                "color":"blue"
+            },
+            "的笑话"
+        ]
+    },
+    "criteria": 
+    {
+        "dts:craft_furnace":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "item":"minecraft:furnace"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:craft_furnace"
+        ]
+    ],
+    "parent":"dts:survive/get_flint"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": 
+  [
+    "X ",
+    "X ",
+    "#S"
+  ],
+  "key": 
+  {
+    "#": 
+    {
+      "item": "minecraft:stick"
+    },
+    "X": 
+    {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "S":
+    {
+      "item": "minecraft:string"
+    }
+  },
+  "result": 
+  {
+    "item": "minecraft:stone_sword"
+  }
+}

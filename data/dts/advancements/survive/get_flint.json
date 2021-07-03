@@ -1,0 +1,34 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:flint"
+        },
+        "title":"火花的诞生",
+        "description":"原始人如何打火？"
+    },
+    "criteria": 
+    {
+        "dts:get_flint":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "item":"minecraft:flint"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:get_flint"
+        ]
+    ],
+    "parent":"dts:survive/get_stone"
+}

@@ -1,0 +1,34 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "title":"这不是铁镐么？",
+        "description":"升级你的镐"
+    },
+    "criteria": 
+    {
+        "dts:craft_iron_pickaxe":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "item":"minecraft:iron_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:craft_iron_pickaxe"
+        ]
+    ],
+    "parent":"dts:survive/get_iron_ingot"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": 
+  [
+    "XGX",
+    "XXX",
+    "XXX"
+  ],
+  "key": 
+  {
+    "X": 
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    "G":
+    {
+      "item": "minecraft:diamond_chestplate"
+    }
+  },
+  "result": 
+  {
+    "item": "minecraft:netherite_chestplate"
+  }
+}

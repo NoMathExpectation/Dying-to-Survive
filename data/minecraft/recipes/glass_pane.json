@@ -1,0 +1,14 @@
+{
+  "type":"minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "item":"minecraft:glass"
+    }
+  ],
+  "result":
+  {
+    "item":"minecraft:glass_pane",
+    "count": 8
+  }
+}

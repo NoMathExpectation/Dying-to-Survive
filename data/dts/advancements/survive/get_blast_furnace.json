@@ -1,0 +1,34 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:blast_furnace"
+        },
+        "title":"这才叫效率！",
+        "description":"驱逐腐朽的熔炉"
+    },
+    "criteria": 
+    {
+        "dts:get_blast_furnace":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "item":"minecraft:blast_furnace"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:get_blast_furnace"
+        ]
+    ],
+    "parent":"dts:survive/get_iron_ingot"
+}

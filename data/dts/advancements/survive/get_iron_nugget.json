@@ -1,0 +1,43 @@
+{
+    "display": 
+    {
+        "icon": 
+        {
+            "item": "minecraft:furnace"
+        },
+        "title":
+        [
+            "",
+            {
+                "text": "没门",
+                "color": "red",
+                "bold": true
+            },
+            "话题！"
+        ],
+        "description":"什么叫坑爹？就是炼铁要收你89%的税"
+    },
+    "criteria": 
+    {
+        "dts:get_iron_nugget":
+        {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": 
+            {
+                "items": 
+                [
+                    {
+                        "item":"minecraft:iron_nugget"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:get_iron_nugget"
+        ]
+    ],
+    "parent":"dts:survive/craft_furnace"
+}
