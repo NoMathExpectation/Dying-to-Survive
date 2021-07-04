@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "quartz",
   "ingredient": 
   {
     "item": "minecraft:nether_quartz_ore"

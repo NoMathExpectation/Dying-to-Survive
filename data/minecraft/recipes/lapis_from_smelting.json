@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "lapis",
   "ingredient": 
   {
     "item": "minecraft:lapis_ore"

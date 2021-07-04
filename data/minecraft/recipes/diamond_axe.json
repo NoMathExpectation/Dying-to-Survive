@@ -21,7 +21,8 @@
       "item": "minecraft:string"
     }
   },
-  "result": {
+  "result": 
+  {
     "item": "minecraft:diamond_axe"
   }
 }

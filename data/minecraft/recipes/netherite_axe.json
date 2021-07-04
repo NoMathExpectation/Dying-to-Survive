@@ -25,7 +25,8 @@
       "item": "minecraft:water_bucket"
     }
   },
-  "result": {
+  "result": 
+  {
     "item": "minecraft:netherite_axe"
   }
 }

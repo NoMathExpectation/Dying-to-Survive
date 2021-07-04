@@ -25,7 +25,8 @@
       "item": "minecraft:lava_bucket"
     }
   },
-  "result": {
+  "result": 
+  {
     "item": "minecraft:anvil"
   }
 }
