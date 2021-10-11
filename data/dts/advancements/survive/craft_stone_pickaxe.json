@@ -19,7 +19,7 @@
                 "items": 
                 [
                     {
-                        "item":"minecraft:stone_pickaxe"
+                        "items": ["minecraft:stone_pickaxe"]
                     }
                 ]
             }

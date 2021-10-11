@@ -18,7 +18,7 @@
                 "items": 
                 [
                     {
-                        "item":"minecraft:flint"
+                        "items": ["minecraft:flint"]
                     }
                 ]
             }
