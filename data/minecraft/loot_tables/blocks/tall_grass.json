@@ -22,7 +22,7 @@
                   }
                 }
               ],
-              "name": "minecraft:grass"
+              "name": "minecraft:tall_grass"
             },
             {
               "type": "minecraft:item",

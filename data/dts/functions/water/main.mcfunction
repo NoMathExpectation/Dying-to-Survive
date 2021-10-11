@@ -3,10 +3,10 @@ execute as @a[gamemode=!creative,gamemode=!spectator,tag=!dts_completed,scores={
 execute as @a[gamemode=!creative,gamemode=!spectator,tag=!dts_completed,scores={dtsDrinkTest=1..},nbt={SelectedItem:{id:"minecraft:glass_bottle","Count":1b}}] if predicate dts:glass_bottle_break run function dts:water/water_bottle_break_mainhand
 tag @a remove dts_completed
 
-execute as @a run scoreboard players operation @s dtsRemain += @s dtsLavaLevel
-execute as @a run scoreboard players operation @s dtsRemain += @s dtsLavaLevel
-execute as @a run scoreboard players operation @s dtsRemain += @s dtsFireLevel
-execute as @a run scoreboard players add @s dtsRemain 1
+execute as @a run scoreboard players operation #remain dtsCalc += @s dtsLavaLevel
+execute as @a run scoreboard players operation #remain dtsCalc += @s dtsLavaLevel
+execute as @a run scoreboard players operation #remain dtsCalc += @s dtsFireLevel
+execute as @a run scoreboard players add #remain dtsCalc 1
 execute as @a unless data entity @s {ActiveEffects:[{Id:12b}]} run function dts:water/calc
 scoreboard players reset @a dtsRemain
 

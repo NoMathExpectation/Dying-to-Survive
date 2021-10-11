@@ -7,7 +7,7 @@ scoreboard objectives add dtsRemain dummy
 scoreboard objectives add dtsHealth dummy
 scoreboard objectives add dtsHunger food
 scoreboard objectives add dtsXpLevel level
-scoreboard objectives add dtsRandom dummy {"translate":"title.dts.random"}
+scoreboard objectives add dtsCalc dummy
 #配置
 scoreboard objectives add dtsConfig_main dummy {"translate":"title.dts.config.main"}
 function dts:config/main
@@ -64,5 +64,3 @@ scoreboard objectives add dtsLightUpTest minecraft.used:minecraft.flint_and_stee
 
 tellraw @a [{"text":"[更难的生存] ","color":"dark_green"},{"text":"“更难的生存”数据包已加载完成，感谢您的使用！","color":"aqua"}]
 tellraw @a [{"text":"[更难的生存] ","color":"dark_green"},{"text":"数据包作者：","color":"gold"},{"text":"_23333_","color":"gold","hoverEvent":{"action":"show_text","value":"点我访问作者页面"},"clickEvent":{"action":"open_url","value":"https://www.mcbbs.net/?2579708"}}]
-
-schedule function dts:tick 1t replace
