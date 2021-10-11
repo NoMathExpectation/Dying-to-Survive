@@ -19,7 +19,7 @@
                 "items": 
                 [
                     {
-                        "item":"minecraft:iron_ingot"
+                        "items": ["minecraft:iron_ingot"]
                     }
                 ]
             }

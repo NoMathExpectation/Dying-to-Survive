@@ -34,7 +34,7 @@
                 "items": 
                 [
                     {
-                        "item":"minecraft:furnace"
+                        "items": ["minecraft:furnace"]
                     }
                 ]
             }

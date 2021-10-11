@@ -45,7 +45,7 @@
         "items": 
         [
           {
-            "item": "minecraft:netherite_hoe"
+            "items": ["minecraft:netherite_hoe"]
           }
         ]
       }

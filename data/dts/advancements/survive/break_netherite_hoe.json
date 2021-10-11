@@ -18,7 +18,7 @@
             {
                 "item": 
                 {
-                    "item": "minecraft:netherite_hoe"
+                    "items": ["minecraft:netherite_hoe"]
                 },
                 "durability":0
             }
