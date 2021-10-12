@@ -1,0 +1,10 @@
+{
+    "values": 
+    [
+        "dts:semi-gas/predicate/leaves",
+        "dts:semi-gas/predicate/fire",
+        "dts:semi-gas/predicate/lava",
+        "dts:semi-gas/predicate/wart",
+        "dts:semi-gas/predicate/furnace"
+    ]
+}

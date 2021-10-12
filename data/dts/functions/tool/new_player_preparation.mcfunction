@@ -14,5 +14,11 @@ scoreboard players set @s dtsFireMax 1
 scoreboard players set @s dtsLava 0
 scoreboard players set @s dtsLavaLevel 0
 scoreboard players set @s dtsLavaMax 1
+scoreboard players set @s dtsWart 0
+scoreboard players set @s dtsWartLevel 0
+scoreboard players set @s dtsWartMax 1
+scoreboard players set @s dtsFurnace 0
+scoreboard players set @s dtsFurnaceLevel 0
+scoreboard players set @s dtsFurnaceMax 1
 
 tag @a add dts_old_player

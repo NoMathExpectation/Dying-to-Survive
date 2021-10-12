@@ -3,6 +3,8 @@
     [
         "#minecraft:leaves",
         "#minecraft:fire",
-        "minecraft:lava"
+        "minecraft:lava",
+        "#minecraft:wart_blocks",
+        "#minecraft:furnace"
     ]
 }

@@ -1,0 +1,1 @@
+execute if score #gas_type dtsCalc matches 3 if block ~ ~ ~ minecraft:lava run scoreboard players set #remain dtsCalc -1
