@@ -2,7 +2,7 @@
     "values": 
     [
         "#minecraft:leaves",
-        "#minecraft:fire",
+        "#dts:fire",
         "minecraft:lava",
         "#minecraft:wart_blocks",
         "#minecraft:furnace"
