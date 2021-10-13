@@ -56,6 +56,7 @@ scoreboard objectives add dtsOxygen dummy {"translate":"title.dts.oxygen"}
 
 # 树叶凋零
 ## 放置测试
+scoreboard objectives add dtsLeavesPlace dummy
 scoreboard objectives add dtsLeavesPlace1 minecraft.used:minecraft.acacia_leaves
 scoreboard objectives add dtsLeavesPlace2 minecraft.used:minecraft.birch_leaves
 scoreboard objectives add dtsLeavesPlace3 minecraft.used:minecraft.dark_oak_leaves

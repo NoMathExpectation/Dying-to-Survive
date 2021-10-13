@@ -1,0 +1,2 @@
+execute if entity @s[distance=..6] unless entity @e[type=minecraft:marker,tag=dts_pointer_checked,distance=..0.86603] align xyz run function dts:tool/pointer/direction
+execute unless entity @e[tag=dts_pointer_target] if entity @s[distance=..6] positioned ^ ^ ^0.001 run function dts:tool/pointer/forward
