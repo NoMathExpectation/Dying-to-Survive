@@ -19,5 +19,5 @@ scoreboard players reset @s dtsLeavesPlace8
 function dts:tool/pointer/get
 
 tag @e[tag=dts_pointer_target] add dts_leaves
-execute as @e[tag=dts_pointer_target] run scoreboard players operation @s dtsDecayTime = #leaves_life dtsConfig_bre
+execute as @e[tag=dts_pointer_target] run scoreboard players operation @s dtsDecayTime = $leaves_life dtsConfig_bre
 function dts:tool/pointer/clear
