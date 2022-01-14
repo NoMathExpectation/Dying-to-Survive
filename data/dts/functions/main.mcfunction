@@ -1,16 +1,20 @@
 # 前置
-tag @a[scores={dtsDeathTest=1..}] remove dts_old_player
-execute as @a[tag=!dts_old_player] run function dts:tool/new_player_preparation
 execute store result score difficulty dtsConfig_main run difficulty
 execute as @a store result score @s dtsHeight run data get entity @s Pos[1]
 execute as @e store result score @s dtsHealth run data get entity @s Health 10
 execute as @e store result score @s dtsFallDistance run data get entity @s FallDistance 10
 
+# 重生
+#define tag dts_player_respawned
+tag @a[scores={dtsDeathTest=1..}] remove dts_player_respawned
+scoreboard players reset @a dtsDeathTest
+execute as @a[tag=!dts_player_respawned,scores={dtsHealth=1..}] run function dts:tool/player_respawn
+
 # 类气体
 execute as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^ run function dts:semi-gas/main
 
 # 呼吸系统
-execute unless score enable_breathe dtsConfig_main matches 0 run function dts:breathe/main
+execute unless score enable_breathe dtsConfig_main matches 0 as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^ run function dts:breathe/main
 
 # 树叶凋零
 execute unless score enable_manual_leaves_decay dtsConfig_bre matches 0 run function dts:leaves_decay/main
@@ -34,7 +38,7 @@ function dts:addons/main
 execute unless score enable_display dtsConfig_bre matches 0 run function dts:tool/display
 
 # 后置
-scoreboard players reset @a dtsDeathTest
+
 scoreboard players reset @a dtsSprintTest
 scoreboard players reset @a dtsJumpTest
 scoreboard players remove @a[scores={dtsDrinkTest=1..}] dtsDrinkTest 1

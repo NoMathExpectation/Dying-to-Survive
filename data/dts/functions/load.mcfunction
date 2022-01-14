@@ -55,17 +55,6 @@ scoreboard objectives add dtsFurnaceMax dummy
 scoreboard objectives add dtsOxygen dummy {"translate":"title.dts.oxygen"}
 
 # 树叶凋零
-## 放置测试
-scoreboard objectives add dtsLeavesPlace dummy
-scoreboard objectives add dtsLeavesPlace1 minecraft.used:minecraft.acacia_leaves
-scoreboard objectives add dtsLeavesPlace2 minecraft.used:minecraft.birch_leaves
-scoreboard objectives add dtsLeavesPlace3 minecraft.used:minecraft.dark_oak_leaves
-scoreboard objectives add dtsLeavesPlace4 minecraft.used:minecraft.jungle_leaves
-scoreboard objectives add dtsLeavesPlace5 minecraft.used:minecraft.oak_leaves
-scoreboard objectives add dtsLeavesPlace6 minecraft.used:minecraft.spruce_leaves
-scoreboard objectives add dtsLeavesPlace7 minecraft.used:minecraft.azalea_leaves
-scoreboard objectives add dtsLeavesPlace8 minecraft.used:minecraft.flowering_azalea_leaves
-## 凋零时间
 scoreboard objectives add dtsDecayTime dummy
 
 # 饮水系统

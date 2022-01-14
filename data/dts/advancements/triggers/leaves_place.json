@@ -1,0 +1,86 @@
+{
+    "criteria": 
+    {
+        "dts:acacia_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:acacia_leaves"
+            }
+        },
+        "dts:birch_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:birch_leaves"
+            }
+        },
+        "dts:dark_oak_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:dark_oak_leaves"
+            }
+        },
+        "dts:jungle_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:jungle_leaves"
+            }
+        },
+        "dts:oak_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:oak_leaves"
+            }
+        },
+        "dts:spruce_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:spruce_leaves"
+            }
+        },
+        "dts:azalea_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:azalea_leaves"
+            }
+        },
+        "dts:flowering_azalea_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:flowering_azalea_leaves"
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:acacia_leaves_placed",
+            "dts:birch_leaves_placed",
+            "dts:dark_oak_leaves_placed",
+            "dts:jungle_leaves_placed",
+            "dts:oak_leaves_placed",
+            "dts:spruce_leaves_placed",
+            "dts:azalea_leaves_placed",
+            "dts:flowering_azalea_leaves_placed"
+        ]
+    ],
+    "rewards": 
+    {
+        "function": "dts:leaves_decay/place"
+    }
+}

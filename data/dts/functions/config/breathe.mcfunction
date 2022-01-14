@@ -1,5 +1,5 @@
-#define score_holder breathe_max 最大氧气值
-scoreboard players set breathe_max dtsConfig_bre 12000
+#define score_holder $breathe_max 最大氧气值
+scoreboard players set $breathe_max dtsConfig_bre 12000
 
 #define score_holder positive_constant 每刻增加的正常数
 scoreboard players set positive_constant dtsConfig_bre 0

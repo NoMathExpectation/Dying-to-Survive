@@ -1,4 +1,4 @@
-scoreboard players operation @s dtsOxygen = breathe_max dtsConfig_bre
+scoreboard players operation @s dtsOxygen = $breathe_max dtsConfig_bre
 scoreboard players operation @s dtsWater = water_max dtsConfig_water
 scoreboard players reset @s dtsLavaDetect
 scoreboard players reset @s dtsFireDetect
@@ -21,4 +21,4 @@ scoreboard players set @s dtsFurnace 0
 scoreboard players set @s dtsFurnaceLevel 0
 scoreboard players set @s dtsFurnaceMax 1
 
-tag @a add dts_old_player
+tag @a add dts_player_respawned
