@@ -3,7 +3,7 @@ scoreboard players set breathe_max dtsConfig_bre 12000
 
 #define score_holder positive_constant 每刻增加的正常数
 scoreboard players set positive_constant dtsConfig_bre 0
-#define score_holder negative_constant 每刻增加的正常数
+#define score_holder negative_constant 每刻增加的负常数
 scoreboard players set negative_constant dtsConfig_bre 0
 
 #define score_holder overworld_breathe_min
