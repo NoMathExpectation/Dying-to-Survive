@@ -1,0 +1,1 @@
+scoreboard players operation @s dtsOxygen += $negative_constant dtsConfig_bre

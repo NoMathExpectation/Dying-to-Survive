@@ -1,0 +1,13 @@
+{
+    "values": 
+    [
+        "dts:breathe/calc/water_breathing_ignore/constant",
+        "dts:breathe/calc/water_breathing_ignore/dimension",
+        "dts:breathe/calc/water_breathing_ignore/lava",
+        "dts:breathe/calc/water_breathing_ignore/fire",
+        "dts:breathe/calc/water_breathing_ignore/furnace",
+        "dts:breathe/calc/water_breathing_ignore/sprint",
+        "dts:breathe/calc/water_breathing_ignore/jump",
+        "dts:breathe/calc/water_breathing_ignore/suffocate"
+    ]
+}

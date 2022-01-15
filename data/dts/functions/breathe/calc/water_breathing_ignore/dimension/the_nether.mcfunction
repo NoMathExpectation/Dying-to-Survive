@@ -1,0 +1,1 @@
+scoreboard players operation @s dtsOxygen += $nether dtsConfig_bre

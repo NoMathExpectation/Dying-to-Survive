@@ -1,0 +1,1 @@
+scoreboard players operation @s[scores={dtsSprintTest=1..}] dtsOxygen += $sprint dtsConfig_bre
