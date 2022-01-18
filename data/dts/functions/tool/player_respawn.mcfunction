@@ -1,9 +1,9 @@
 scoreboard players operation @s dtsOxygen = $breathe_max dtsConfig_bre
-scoreboard players operation @s dtsWater = water_max dtsConfig_water
+scoreboard players operation @s dtsWater = $water_max dtsConfig_water
 scoreboard players reset @s dtsLavaDetect
 scoreboard players reset @s dtsFireDetect
 scoreboard players reset @s dtsLeavesDetect
-scoreboard players set @s dtsRehealTimer 1
+scoreboard players operation @s dtsRehealTimer = reheal_timer dtsConfig_player
 
 scoreboard players set @s dtsLeaves 0
 scoreboard players set @s dtsLeavesLevel 0

@@ -20,7 +20,7 @@ execute unless score enable_breathe dtsConfig_main matches 0 as @a[gamemode=!cre
 execute unless score enable_manual_leaves_decay dtsConfig_bre matches 0 run function dts:leaves_decay/main
 
 # 饮水
-execute unless score enable_water dtsConfig_bre matches 0 run function dts:water/main
+execute unless score enable_water dtsConfig_bre matches 0 as @a at @s run function dts:water/main
 
 # 玩家
 function dts:player/main
@@ -41,5 +41,4 @@ execute unless score enable_display dtsConfig_bre matches 0 run function dts:too
 
 scoreboard players reset @a dtsSprintTest
 scoreboard players reset @a dtsJumpTest
-scoreboard players remove @a[scores={dtsDrinkTest=1..}] dtsDrinkTest 1
 scoreboard players remove @a[scores={dtsBucketTest=1..}] dtsBucketTest 1

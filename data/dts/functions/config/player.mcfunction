@@ -23,8 +23,8 @@ scoreboard players set reheal_hunger dtsConfig_player 6
 
 #define score_holder reheal_timer 回血所需刻数
 scoreboard players set reheal_timer dtsConfig_player 1800
-#define score_holder x
-scoreboard players set x dtsConfig_player 10
+#define score_holder #hunger_scale
+scoreboard players set #hunger_scale dtsConfig_player 10
 
 #define score_holder dxp 每x点原版经验所能增加1点经验
 scoreboard players set dxp dtsConfig_player 5

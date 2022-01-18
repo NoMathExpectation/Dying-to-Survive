@@ -60,7 +60,6 @@ scoreboard objectives add dtsDecayTime dummy
 # 饮水系统
 scoreboard objectives add dtsWater dummy {"translate":"title.dts.water"}
 scoreboard objectives add dtsBucketTest minecraft.crafted:minecraft.water_bucket
-scoreboard objectives add dtsDrinkTest minecraft.used:minecraft.potion
 
 # 玩家
 scoreboard objectives add dtsMaxHealth dummy
