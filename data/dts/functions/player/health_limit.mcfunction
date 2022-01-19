@@ -19,4 +19,4 @@ execute if score @s dtsMaxHealth matches 170..179 run attribute @s generic.max_h
 execute if score @s dtsMaxHealth matches 180..189 run attribute @s generic.max_health base set 18
 execute if score @s dtsMaxHealth matches 190..199 run attribute @s generic.max_health base set 19
 execute if score @s dtsMaxHealth matches 200.. run attribute @s generic.max_health base set 20
-execute if score @s dtsHealth >= @s dtsMaxHealth run effect give @s instant_health 1 0 true
+execute if score @s dtsHealth > @s dtsMaxHealth run effect give @s instant_health 1 0 true
