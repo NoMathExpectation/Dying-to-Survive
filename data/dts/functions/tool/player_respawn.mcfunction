@@ -3,7 +3,7 @@ scoreboard players operation @s dtsWater = $water_max dtsConfig_water
 scoreboard players reset @s dtsLavaDetect
 scoreboard players reset @s dtsFireDetect
 scoreboard players reset @s dtsLeavesDetect
-scoreboard players operation @s dtsRehealTimer = reheal_timer dtsConfig_player
+scoreboard players operation @s dtsRehealTimer = $reheal_timer dtsConfig_player
 
 scoreboard players set @s dtsLeaves 0
 scoreboard players set @s dtsLeavesLevel 0
@@ -21,4 +21,7 @@ scoreboard players set @s dtsFurnace 0
 scoreboard players set @s dtsFurnaceLevel 0
 scoreboard players set @s dtsFurnaceMax 1
 
-tag @a add dts_player_respawned
+scoreboard players operation @s dtsXpAcc -= $deathxp dtsConfig_player
+scoreboard players set @s dtsXpLastTick 0
+
+tag @s add dts_player_respawned

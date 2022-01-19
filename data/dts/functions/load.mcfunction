@@ -66,8 +66,8 @@ scoreboard objectives add dtsMaxHealth dummy
 scoreboard objectives add dtsMaxHunger dummy
 scoreboard objectives add dtsRehealTimer dummy
 scoreboard objectives add dtsXp xp
-scoreboard objectives add dtsXpp dummy
-scoreboard objectives add dtsXpacc dummy
+scoreboard objectives add dtsXpLastTick dummy
+scoreboard objectives add dtsXpAcc dummy
 
 # 地狱传送门
 scoreboard objectives add dtsLightUpTest minecraft.used:minecraft.flint_and_steel
