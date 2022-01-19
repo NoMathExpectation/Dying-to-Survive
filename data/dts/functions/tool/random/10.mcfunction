@@ -1,5 +1,5 @@
-#alias vector random_spawn_pos ~ -1 ~
+#alias vector random_spawn_pos ~ -65 ~
 #define score_holder #random
-loot spawn ~ -1 ~ loot dts:random/10
-execute positioned ~ -1 ~ store result score #random dtsCalc run data get entity @e[type=item,nbt={Item:{tag:{dtsRandom:1b}}},limit=1,distance=..1] Item.Count
-execute positioned ~ -1 ~ run kill @e[distance=..1,type=item,nbt={Item:{tag:{dtsRandom:1b}}}]
+loot spawn ~ -65 ~ loot dts:random/10
+execute positioned ~ -65 ~ store result score #random dtsCalc run data get entity @e[type=item,nbt={Item:{tag:{dtsRandom:1b}}},limit=1,distance=..1] Item.Count
+execute positioned ~ -65 ~ run kill @e[distance=..1,type=item,nbt={Item:{tag:{dtsRandom:1b}}}]
