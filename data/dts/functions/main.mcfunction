@@ -8,7 +8,7 @@ execute as @e store result score @s dtsFallDistance run data get entity @s FallD
 #define tag dts_player_respawned
 tag @a[scores={dtsDeathTest=1..}] remove dts_player_respawned
 scoreboard players reset @a dtsDeathTest
-execute as @a[tag=!dts_player_respawned,scores={dtsHealth=1..}] run function dts:tool/player_respawn
+execute as @a[tag=!dts_player_respawned] if score @s dtsHealth >= @s dtsMaxHealth run function dts:player/respawn
 
 # 类气体
 execute as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^ run function dts:semi-gas/main
