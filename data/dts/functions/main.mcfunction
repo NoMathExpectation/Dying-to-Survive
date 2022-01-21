@@ -14,13 +14,13 @@ execute as @a[tag=!dts_player_respawned] if score @s dtsHealth >= @s dtsMaxHealt
 execute as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^ run function dts:semi-gas/main
 
 # 呼吸系统
-execute unless score enable_breathe dtsConfig_main matches 0 as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^ run function dts:breathe/main
+execute unless score $enable_breathe dtsConfig_main matches 0 as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^ run function dts:breathe/main
 
 # 树叶凋零
-execute unless score enable_manual_leaves_decay dtsConfig_bre matches 0 run function dts:leaves_decay/main
+execute unless score $enable_manual_leaves_decay dtsConfig_bre matches 0 run function dts:leaves_decay/main
 
 # 饮水
-execute unless score enable_water dtsConfig_bre matches 0 as @a at @s run function dts:water/main
+execute unless score $enable_water dtsConfig_bre matches 0 as @a at @s run function dts:water/main
 
 # 玩家
 function dts:player/main
@@ -29,13 +29,13 @@ function dts:player/main
 function dts:mob_enhance/main
 
 # 地狱传送门
-execute unless score bedrock_nether_portal dtsConfig_main matches 0 run function dts:nether_portal/main
+execute unless score $bedrock_nether_portal dtsConfig_main matches 0 run function dts:nether_portal/main
 
 # 插件
 function dts:addons/main
 
 # 显示
-execute unless score enable_display dtsConfig_bre matches 0 run function dts:tool/display
+execute unless score $enable_display dtsConfig_bre matches 0 run function dts:tool/display
 
 # 后置
 
