@@ -1,0 +1,37 @@
+{
+    "criteria": 
+    {
+        "dts:use_potion_mainhand":
+        {
+            "trigger": "minecraft:consume_item",
+            "conditions": 
+            {
+                "item": 
+                {
+                    "tag": "dts:potion"
+                },
+                "player":
+                [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": 
+                        {
+                            "equipment": 
+                            {
+                                "offhand":
+                                {
+                                    "items": ["minecraft:potion"]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": 
+    {
+        "function": "dts:water/drink/offhand"
+    }
+}

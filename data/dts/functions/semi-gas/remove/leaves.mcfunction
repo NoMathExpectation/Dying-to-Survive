@@ -1,2 +1,2 @@
-scoreboard players operation @s dtsLeavesMax /= constant_2 dtsConfig_main
+scoreboard players operation @s dtsLeavesMax /= $leaves_multiple dtsConfig_gas
 scoreboard players remove @s dtsLeavesLevel 1

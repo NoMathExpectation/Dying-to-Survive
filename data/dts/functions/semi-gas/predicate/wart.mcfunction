@@ -1,0 +1,1 @@
+execute if score #gas_type dtsCalc matches 4 if block ~ ~ ~ #minecraft:wart_blocks run scoreboard players set #remain dtsCalc -1

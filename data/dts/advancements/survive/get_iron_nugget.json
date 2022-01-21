@@ -27,7 +27,7 @@
                 "items": 
                 [
                     {
-                        "item":"minecraft:iron_nugget"
+                        "items": ["minecraft:iron_nugget"]
                     }
                 ]
             }

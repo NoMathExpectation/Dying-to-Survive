@@ -1,0 +1,10 @@
+{
+    "values": 
+    [
+        "dts:semi-gas/calc/leaves",
+        "dts:semi-gas/calc/fire",
+        "dts:semi-gas/calc/lava",
+        "dts:semi-gas/calc/wart",
+        "dts:semi-gas/calc/furnace"
+    ]
+}

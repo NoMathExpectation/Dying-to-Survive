@@ -1,12 +1,15 @@
 {
   "type": "minecraft:smithing",
-  "base": {
+  "base": 
+  {
     "item": "minecraft:diamond_boots"
   },
-  "addition": {
+  "addition": 
+  {
     "item": "minecraft:bedrock"
   },
-  "result": {
+  "result": 
+  {
     "item": "minecraft:netherite_boots"
   }
 }

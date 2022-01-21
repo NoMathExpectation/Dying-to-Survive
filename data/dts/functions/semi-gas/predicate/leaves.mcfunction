@@ -1,0 +1,1 @@
+execute if score #gas_type dtsCalc matches 1 if block ~ ~ ~ #minecraft:leaves run scoreboard players set #remain dtsCalc -1

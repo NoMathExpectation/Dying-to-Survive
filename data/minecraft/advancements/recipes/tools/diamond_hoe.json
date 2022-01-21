@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": 
+  {
+    "recipes": 
+    [
+      "minecraft:diamond_hoe",
+      "minecraft:diamond_hoe2"
+    ]
+  },
+  "criteria": 
+  {
+    "has_diamond": 
+    {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": 
+      {
+        "items": 
+        [
+          {
+            "items": 
+            [
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": 
+    {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": 
+      {
+        "recipe": "minecraft:diamond_hoe"
+      }
+    },
+    "has_the_recipe2": 
+    {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": 
+      {
+        "recipe": "minecraft:diamond_hoe2"
+      }
+    }
+  },
+  "requirements": 
+  [
+    [
+      "has_diamond",
+      "has_the_recipe",
+      "has_the_recipe2"
+    ]
+  ]
+}

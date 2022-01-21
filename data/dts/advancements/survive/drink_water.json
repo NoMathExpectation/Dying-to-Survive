@@ -19,7 +19,7 @@
             {
                 "item": 
                 {
-                    "item": "minecraft:potion"
+                    "items": ["minecraft:potion"]
                 }
             }
         }

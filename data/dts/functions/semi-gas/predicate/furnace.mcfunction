@@ -1,0 +1,1 @@
+execute if score #gas_type dtsCalc matches 5 if block ~ ~ ~ #minecraft:furnace[lit=true] run scoreboard players set #remain dtsCalc -1

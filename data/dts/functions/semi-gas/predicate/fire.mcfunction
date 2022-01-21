@@ -1,0 +1,1 @@
+execute if score #gas_type dtsCalc matches 2 if block ~ ~ ~ #dts:fire run scoreboard players set #remain dtsCalc -1
