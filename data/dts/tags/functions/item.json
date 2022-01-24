@@ -1,0 +1,9 @@
+{
+    "values": 
+    [
+        "dts:items/gravel/test",
+        "dts:items/sand/test",
+        "dts:items/red_sand/test",
+        "dts:items/magma_block/test"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "minecraft:command",
+    "pools": 
+    [
+        {
+            "conditions": 
+            [
+                {
+                    "condition": "minecraft:random_chance",
+                    "chance": 0.1
+                }
+            ],
+            "rolls": 1,
+            "entries": 
+            [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:flint",
+                    "weight": 100
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:raw_copper",
+                    "weight": 50
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:raw_iron",
+                    "weight": 10
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:raw_gold",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

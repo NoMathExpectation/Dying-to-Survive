@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{"id":"minecraft:sand"}}] at @s if block ~ ~ ~ minecraft:water if predicate dts:sand_gravel run function dts:items/sand/loot

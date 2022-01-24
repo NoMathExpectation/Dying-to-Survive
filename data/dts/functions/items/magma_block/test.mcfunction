@@ -1,0 +1,1 @@
+execute as @e[type=item,nbt={Item:{"id":"minecraft:magma_block"}}] at @s if block ~ ~ ~ minecraft:water run function dts:items/magma_block/loot
