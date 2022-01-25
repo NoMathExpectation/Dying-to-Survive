@@ -11,7 +11,7 @@ scoreboard players reset @a dtsDeathTest
 execute as @a[tag=!dts_player_respawned] if score @s dtsHealth >= @s dtsMaxHealth run function dts:player/respawn
 
 # 物品
-function #dts:item
+function #dts:items
 
 # 类气体
 execute as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^ run function dts:semi-gas/main
