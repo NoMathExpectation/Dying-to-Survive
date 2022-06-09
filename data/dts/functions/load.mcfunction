@@ -2,7 +2,7 @@
 scoreboard objectives add dtsDeathTest deathCount
 scoreboard objectives add dtsSprintTest minecraft.custom:minecraft.sprint_one_cm
 scoreboard objectives add dtsJumpTest minecraft.custom:minecraft.jump
-scoreboard objectives add dtsHeight dummy {"translate":"title.dts.height"}
+scoreboard objectives add dtsHeight dummy
 scoreboard objectives add dtsRemain dummy
 scoreboard objectives add dtsHealth dummy
 scoreboard objectives add dtsHunger food
@@ -10,18 +10,14 @@ scoreboard objectives add dtsXpLevel level
 scoreboard objectives add dtsCalc dummy
 
 # 配置
-scoreboard objectives add dtsConfig_main dummy {"translate":"title.dts.config.main"}
-function dts:config/main
-scoreboard objectives add dtsConfig_bre dummy {"translate":"title.dts.config.breathe"}
-function dts:config/breathe
-scoreboard objectives add dtsConfig_water dummy {"translate":"title.dts.config.water"}
-function dts:config/water
-scoreboard objectives add dtsConfig_player dummy {"translate":"title.dts.config.player"}
-function dts:config/player
-scoreboard objectives add dtsConfig_addons dummy {"translate":"title.dts.config.addons"}
-function dts:config/addons
-scoreboard objectives add dtsConfig_gas dummy {"translate":"title.dts.config.semi_gas"}
-function dts:config/semi-gas
+scoreboard objectives add dtsConfig_main dummy {"translate":"dts.scoreboard.config.main"}
+scoreboard objectives add dtsConfig_blocks dummy {"translate":"dts.scoreboard.config.blocks"}
+scoreboard objectives add dtsConfig_bre dummy {"translate":"dts.scoreboard.config.breathe"}
+scoreboard objectives add dtsConfig_water dummy {"translate":"dts.scoreboard.config.water"}
+scoreboard objectives add dtsConfig_player dummy {"translate":"dts.scoreboard.config.player"}
+scoreboard objectives add dtsConfig_addons dummy {"translate":"dts.scoreboard.config.addons"}
+scoreboard objectives add dtsConfig_gas dummy {"translate":"dts.scoreboard.config.semi_gas"}
+function #dts:config
 
 # addons
 scoreboard objectives add dtsCreeperHp dummy
@@ -51,11 +47,14 @@ scoreboard objectives add dtsFurnace dummy
 scoreboard objectives add dtsFurnaceLevel dummy
 scoreboard objectives add dtsFurnaceMax dummy
 
+# 树叶
+scoreboard objectives add dtsDecayTime dummy
+
+# 营火
+scoreboard objectives add dtsCookingTime dummy
+
 # 呼吸系统
 scoreboard objectives add dtsOxygen dummy {"translate":"title.dts.oxygen"}
-
-# 树叶凋零
-scoreboard objectives add dtsDecayTime dummy
 
 # 饮水系统
 scoreboard objectives add dtsWater dummy {"translate":"title.dts.water"}

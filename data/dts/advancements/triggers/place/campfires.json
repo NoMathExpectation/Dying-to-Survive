@@ -1,0 +1,32 @@
+{
+    "criteria": 
+    {
+        "dts:campfire_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:campfire"
+            }
+        },
+        "dts:soul_campfire_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:soul_campfire"
+            }
+        }
+    },
+    "requirements": 
+    [
+        [
+            "dts:campfire_placed",
+            "dts:soul_campfire_placed"
+        ]
+    ],
+    "rewards": 
+    {
+        "function": "dts:blocks/campfires/place"
+    }
+}

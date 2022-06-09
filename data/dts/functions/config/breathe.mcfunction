@@ -52,7 +52,3 @@ scoreboard players set $debuff_lv1 dtsConfig_bre 2400
 scoreboard players set $debuff_lv2 dtsConfig_bre 1200
 #define score_holder $debuff_lv3
 scoreboard players set $debuff_lv3 dtsConfig_bre 1
-
-# 树叶凋零
-#define score_holder $leaves_life 树叶初始寿命
-scoreboard players set $leaves_life dtsConfig_bre 3600

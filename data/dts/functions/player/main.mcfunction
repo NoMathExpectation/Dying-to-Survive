@@ -1,4 +1,4 @@
-execute unless score $enable_slow_break dtsConfig_player matches 0 run effect give @a[gamemode=!creative,gamemode=!spectator] mining_fatigue 1 1 true
+#execute unless score $enable_slow_break dtsConfig_player matches 0 run effect give @a[gamemode=!creative,gamemode=!spectator] mining_fatigue 1 1 true
 execute unless score $enable_slow_break dtsConfig_player matches 0 run effect give @a[gamemode=!creative,gamemode=!spectator] weakness 1 0 true
 
 execute unless score $enable_slow_reheal dtsConfig_player matches 0 run gamerule naturalRegeneration false

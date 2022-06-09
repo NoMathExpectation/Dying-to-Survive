@@ -1,0 +1,12 @@
+{
+    "values": 
+    [
+        "dts:config/main",
+        "dts:config/breathe",
+        "dts:config/blocks",
+        "dts:config/water",
+        "dts:config/player",
+        "dts:config/addons",
+        "dts:config/semi-gas"
+    ]
+}

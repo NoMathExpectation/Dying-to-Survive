@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": 
+  {
+    "recipes": 
+    [
+      "minecraft:campfire"
+    ]
+  },
+  "criteria": 
+  {
+    "has_logs_that_burn": 
+    {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": 
+      {
+        "items": 
+        [
+          {
+            "tag": "minecraft:logs_that_burn"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": 
+    {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": 
+      {
+        "recipe": "minecraft:campfire"
+      }
+    }
+  },
+  "requirements": 
+  [
+    [
+      "has_logs_that_burn",
+      "has_the_recipe"
+    ]
+  ]
+}

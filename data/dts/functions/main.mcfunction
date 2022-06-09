@@ -10,6 +10,9 @@ tag @a[scores={dtsDeathTest=1..}] remove dts_player_respawned
 scoreboard players reset @a dtsDeathTest
 execute as @a[tag=!dts_player_respawned] if score @s dtsHealth >= @s dtsMaxHealth run function dts:player/respawn
 
+# 方块
+function #dts:blocks
+
 # 物品
 function #dts:items
 
@@ -18,9 +21,6 @@ execute as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positi
 
 # 呼吸系统
 execute unless score $enable_breathe dtsConfig_main matches 0 as @a[gamemode=!creative,gamemode=!spectator] at @s anchored eyes positioned ^ ^ ^ run function dts:breathe/main
-
-# 树叶凋零
-execute unless score $enable_manual_leaves_decay dtsConfig_bre matches 0 run function dts:leaves_decay/main
 
 # 饮水
 execute unless score $enable_water dtsConfig_bre matches 0 as @a at @s run function dts:water/main

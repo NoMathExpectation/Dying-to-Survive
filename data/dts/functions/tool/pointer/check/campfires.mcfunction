@@ -1,0 +1,1 @@
+execute if score #pointer_check_type dtsCalc matches 2 if block ~ ~ ~ #minecraft:campfires run summon minecraft:marker ~ ~ ~ {Tags:["dts_pointer_target"]}

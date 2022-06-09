@@ -1,6 +1,7 @@
 {
     "values": 
     [
-        "dts:tool/pointer/check/leaves"
+        "dts:tool/pointer/check/leaves",
+        "dts:tool/pointer/check/campfires"
     ]
 }

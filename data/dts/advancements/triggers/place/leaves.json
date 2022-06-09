@@ -81,6 +81,6 @@
     ],
     "rewards": 
     {
-        "function": "dts:leaves_decay/place"
+        "function": "dts:blocks/leaves/place"
     }
 }
