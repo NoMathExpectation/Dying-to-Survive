@@ -1,12 +1,9 @@
 {
-    "display": 
-    {
-        "icon": 
-        {
+    "display": {
+        "icon": {
             "item": "minecraft:furnace"
         },
-        "title":
-        [
+        "title": [
             "",
             {
                 "text": "热",
@@ -14,37 +11,33 @@
             },
             "门话题"
         ],
-        "description":
-        [
+        "description": [
             "好",
             {
                 "text": "冷",
-                "color":"blue"
+                "color": "blue"
             },
             "的笑话"
         ]
     },
-    "criteria": 
-    {
-        "dts:craft_furnace":
-        {
+    "criteria": {
+        "dts:furnace": {
             "trigger": "minecraft:inventory_changed",
-            "conditions": 
-            {
-                "items": 
-                [
+            "conditions": {
+                "items": [
                     {
-                        "items": ["minecraft:furnace"]
+                        "items": [
+                            "minecraft:furnace"
+                        ]
                     }
                 ]
             }
         }
     },
-    "requirements": 
-    [
+    "requirements": [
         [
-            "dts:craft_furnace"
+            "dts:furnace"
         ]
     ],
-    "parent":"dts:survive/get_flint"
+    "parent": "dts:survive/copper_pickaxe"
 }

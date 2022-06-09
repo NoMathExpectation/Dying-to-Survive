@@ -1,19 +1,20 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:quartz"
+            "item": "minecraft:stone_pickaxe"
         },
-        "title": "地狱的产物",
-        "description": "...就藏在沙子里"
+        "title": "铜器时代",
+        "description": "制作一把铜镐",
+        "frame": "goal"
     },
     "criteria": {
-        "dts:get_quartz": {
+        "dts:copper_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:quartz"
+                            "minecraft:stone_pickaxe"
                         ]
                     }
                 ]
@@ -22,8 +23,8 @@
     },
     "requirements": [
         [
-            "dts:get_quartz"
+            "dts:copper_pickaxe"
         ]
     ],
-    "parent": "dts:survive/furnace"
+    "parent": "dts:survive/copper_smelting"
 }

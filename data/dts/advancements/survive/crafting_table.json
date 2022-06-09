@@ -1,27 +1,27 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:furnace"
+            "item": "minecraft:crafting_table"
         },
-        "title": [
-            "",
+        "title": "这是？工作台！",
+        "description": [
+            "Mine",
             {
-                "text": "没门",
-                "color": "red",
-                "bold": true
+                "text": "craft",
+                "color": "aqua"
             },
-            "话题！"
+            "!"
         ],
-        "description": "什么叫坑爹？就是炼铁要收你89%的税"
+        "frame": "goal"
     },
     "criteria": {
-        "dts:get_iron_nugget": {
+        "dts:get_crafting_table": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:iron_nugget"
+                            "minecraft:crafting_table"
                         ]
                     }
                 ]
@@ -30,8 +30,8 @@
     },
     "requirements": [
         [
-            "dts:get_iron_nugget"
+            "dts:get_crafting_table"
         ]
     ],
-    "parent": "dts:survive/furnace"
+    "parent": "dts:survive/gravel_axe"
 }

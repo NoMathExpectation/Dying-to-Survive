@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:copper_ingot"
+        },
+        "title": "干法炼铜",
+        "description": "用4个粗铜在篝火上炼出铜锭"
+    },
+    "criteria": {
+        "dts:copper_smelting": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dts:copper_smelting"
+        ]
+    ],
+    "parent": "dts:survive/wash_gravel"
+}

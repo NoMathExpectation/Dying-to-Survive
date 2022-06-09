@@ -1,50 +1,38 @@
 {
   "parent": "minecraft:recipes/root",
-  "rewards": 
-  {
-    "recipes": 
-    [
+  "rewards": {
+    "recipes": [
       "minecraft:golden_hoe",
       "minecraft:golden_hoe2"
     ]
   },
-  "criteria": 
-  {
-    "has_gold_ingot": 
-    {
+  "criteria": {
+    "has_gold_ingot": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": 
-      {
-        "items": 
-        [
+      "conditions": {
+        "items": [
           {
-            "items": 
-            [
+            "items": [
               "minecraft:gold_ingot"
             ]
           }
         ]
       }
     },
-    "has_the_recipe": 
-    {
+    "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": 
-      {
+      "conditions": {
         "recipe": "minecraft:golden_hoe"
       }
     },
-    "has_the_recipe2": 
-    {
+    "has_the_recipe2": {
       "trigger": "minecraft:recipe_unlocked",
-      "conditions": 
-      {
+      "conditions": {
         "recipe": "minecraft:golden_hoe2"
       }
     }
   },
-  "requirements": 
-  [
+  "requirements": [
     [
       "has_gold_ingot",
       "has_the_recipe",

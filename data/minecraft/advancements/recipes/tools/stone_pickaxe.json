@@ -2,18 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "minecraft:diamond_hoe",
-      "minecraft:diamond_hoe2"
+      "minecraft:stone_pickaxe"
     ]
   },
   "criteria": {
-    "has_diamond": {
+    "has_copper_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:diamond"
+              "minecraft:copper_ingot"
             ]
           }
         ]
@@ -22,21 +21,14 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:diamond_hoe"
-      }
-    },
-    "has_the_recipe2": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "minecraft:diamond_hoe2"
+        "recipe": "minecraft:stone_pickaxe"
       }
     }
   },
   "requirements": [
     [
-      "has_diamond",
-      "has_the_recipe",
-      "has_the_recipe2"
+      "has_copper_ingot",
+      "has_the_recipe"
     ]
   ]
 }

@@ -1,29 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "diamond_hoe",
-  "pattern": 
-  [
+  "pattern": [
     "XXS",
     " # ",
     " # "
   ],
-  "key": 
-  {
-    "#": 
-    {
+  "key": {
+    "#": {
       "item": "minecraft:stick"
     },
-    "X": 
-    {
+    "X": {
       "item": "minecraft:diamond"
     },
-    "S":
-    {
+    "S": {
       "item": "minecraft:string"
     }
   },
-  "result": 
-  {
+  "result": {
     "item": "minecraft:diamond_hoe"
   }
 }

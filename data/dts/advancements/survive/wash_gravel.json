@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gravel"
+        },
+        "title": "淘沙者",
+        "description": "砂砾里是不是也有东西呢？"
+    },
+    "criteria": {
+        "dts:wash_gravel": {
+            "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "dts:wash_gravel"
+        ]
+    ],
+    "parent": "dts:survive/crafting_table"
+}

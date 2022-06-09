@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:quartz"
+            "item": "minecraft:wooden_axe"
         },
-        "title": "地狱的产物",
-        "description": "...就藏在沙子里"
+        "title": "这么快就到石器时代了吗",
+        "description": "使用木棍和燧石合成燧石斧"
     },
     "criteria": {
-        "dts:get_quartz": {
+        "dts:gravel_axe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:quartz"
+                            "minecraft:wooden_axe"
                         ]
                     }
                 ]
@@ -22,8 +22,8 @@
     },
     "requirements": [
         [
-            "dts:get_quartz"
+            "dts:gravel_axe"
         ]
     ],
-    "parent": "dts:survive/furnace"
+    "parent": "dts:survive/flint"
 }

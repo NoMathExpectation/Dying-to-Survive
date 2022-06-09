@@ -1,19 +1,19 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:quartz"
+            "item": "minecraft:wooden_shovel"
         },
-        "title": "地狱的产物",
-        "description": "...就藏在沙子里"
+        "title": "也许可以更快一些",
+        "description": "有了燧石锹，挖燧石方便多了"
     },
     "criteria": {
-        "dts:get_quartz": {
+        "dts:gravel_shovel": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "items": [
-                            "minecraft:quartz"
+                            "minecraft:wooden_shovel"
                         ]
                     }
                 ]
@@ -22,8 +22,8 @@
     },
     "requirements": [
         [
-            "dts:get_quartz"
+            "dts:gravel_shovel"
         ]
     ],
-    "parent": "dts:survive/furnace"
+    "parent": "dts:survive/flint"
 }

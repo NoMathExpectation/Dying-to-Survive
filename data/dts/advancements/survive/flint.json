@@ -3,14 +3,14 @@
     {
         "icon": 
         {
-            "item": "minecraft:oak_log"
+            "item": "minecraft:flint"
         },
-        "title":"为什么不去撸树呢？",
-        "description":"试试你的手劲有多大"
+        "title":"劣质石头",
+        "description":"燧石这东西，凑合着用吧"
     },
     "criteria": 
     {
-        "dts:get_a_log":
+        "dts:flint":
         {
             "trigger": "minecraft:inventory_changed",
             "conditions": 
@@ -18,7 +18,7 @@
                 "items": 
                 [
                     {
-                        "tag":"minecraft:logs"
+                        "items": ["minecraft:flint"]
                     }
                 ]
             }
@@ -27,7 +27,7 @@
     "requirements": 
     [
         [
-            "dts:get_a_log"
+            "dts:flint"
         ]
     ],
     "parent":"dts:survive/main"

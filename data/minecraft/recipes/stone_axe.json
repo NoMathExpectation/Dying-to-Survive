@@ -1,28 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": 
-  [
+  "pattern": [
     "XXS",
     "X# ",
     " # "
   ],
-  "key": 
-  {
-    "#": 
-    {
+  "key": {
+    "#": {
       "item": "minecraft:stick"
     },
-    "X": 
-    {
-      "tag": "minecraft:stone_tool_materials"
+    "X": {
+      "item": "minecraft:copper_ingot"
     },
-    "S":
-    {
+    "S": {
       "item": "minecraft:string"
     }
   },
-  "result": 
-  {
+  "result": {
     "item": "minecraft:stone_axe"
   }
 }
