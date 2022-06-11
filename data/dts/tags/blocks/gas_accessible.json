@@ -35,7 +35,7 @@
 		"minecraft:scaffolding",
 		"minecraft:seagrass",
 		"minecraft:tall_seagrass",
-		"#minecraft:carpets",
+		"#minecraft:wool_carpets",
 		"minecraft:fern",
 		"minecraft:large_fern",
 		"minecraft:spore_blossom",
@@ -111,6 +111,12 @@
 		"minecraft:bell",
 		"minecraft:powder_snow",
 		"minecraft:lantern",
-		"minecraft:soul_lantern"
+		"minecraft:soul_lantern",
+		"minecraft:frogspawn",
+		"minecraft:mangrove_roots",
+		"minecraft:sculk_vein",
+		"minecraft:sculk_sensor",
+		"minecraft:sculk_shrieker",
+		"minecraft:enchanting_table"
 	]
 }

@@ -64,6 +64,14 @@
             {
                 "block": "minecraft:flowering_azalea_leaves"
             }
+        },
+        "dts:mangrove_leaves_placed":
+        {
+            "trigger": "minecraft:placed_block",
+            "conditions": 
+            {
+                "block": "minecraft:mangrove_leaves"
+            }
         }
     },
     "requirements": 
@@ -76,7 +84,8 @@
             "dts:oak_leaves_placed",
             "dts:spruce_leaves_placed",
             "dts:azalea_leaves_placed",
-            "dts:flowering_azalea_leaves_placed"
+            "dts:flowering_azalea_leaves_placed",
+            "dts:mangrove_leaves_placed"
         ]
     ],
     "rewards": 
