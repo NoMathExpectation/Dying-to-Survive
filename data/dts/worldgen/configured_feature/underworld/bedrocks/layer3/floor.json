@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:fill_layer",
+    "config": {
+        "height": 62,
+        "state": {
+            "Name": "minecraft:bedrock"
+        }
+    }
+}

@@ -1,0 +1,247 @@
+{
+    "type": "minecraft:random_boolean_selector",
+    "config": {
+        "feature_false": {
+            "feature": {
+                "type": "minecraft:disk",
+                "config": {
+                    "state_provider": {
+                        "fallback": {
+                            "type": "minecraft:simple_state_provider",
+                            "state": {
+                                "Name": "minecraft:bedrock"
+                            }
+                        },
+                        "rules": []
+                    },
+                    "radius": {
+                        "type": "minecraft:uniform",
+                        "value": {
+                            "max_inclusive": 8,
+                            "min_inclusive": 1
+                        }
+                    },
+                    "target": {
+                        "type": "minecraft:true"
+                    },
+                    "half_height": 2
+                }
+            },
+            "placement": []
+        },
+        "feature_true": {
+            "feature": {
+                "type": "minecraft:simple_random_selector",
+                "config": {
+                    "features": [
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 184,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 185,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 186,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 187,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 188,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 189,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 190,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 191,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 192,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 193,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 194,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 195,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 196,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 197,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 198,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 199,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        },
+                        {
+                            "feature": {
+                                "type": "minecraft:fill_layer",
+                                "config": {
+                                    "height": 200,
+                                    "state": {
+                                        "Name": "minecraft:bedrock"
+                                    }
+                                }
+                            },
+                            "placement": []
+                        }
+                    ]
+                }
+            },
+            "placement": []
+        }
+    }
+}

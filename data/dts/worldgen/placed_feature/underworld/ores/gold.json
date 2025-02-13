@@ -1,0 +1,24 @@
+{
+    "feature": "dts:underworld/ores/gold",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 4
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "max_inclusive": {
+                    "below_top": 64
+                },
+                "min_inclusive": {
+                    "below_top": 128
+                }
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        }
+    ]
+}

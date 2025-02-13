@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "frequency": 0.25,
+    "count": 32,
+    "distance": 128,
+    "preferred_biomes": "#minecraft:stronghold_biased_to",
+    "salt": 834184,
+    "spread": 1
+  },
+  "structures": [
+    {
+      "structure": "minecraft:stronghold",
+      "weight": 1
+    }
+  ]
+}

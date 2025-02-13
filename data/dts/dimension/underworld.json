@@ -1,0 +1,11 @@
+{
+    "type": "dts:underworld",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "dts:underworld",
+        "biome_source": {
+            "type": "minecraft:fixed",
+            "biome": "dts:underground"
+        }
+    }
+}

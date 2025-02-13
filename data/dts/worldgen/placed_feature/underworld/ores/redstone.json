@@ -1,0 +1,24 @@
+{
+    "feature": "dts:underworld/ores/redstone",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 4
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "max_inclusive": {
+                    "above_bottom": 65
+                },
+                "min_inclusive": {
+                    "above_bottom": 63
+                }
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        }
+    ]
+}
